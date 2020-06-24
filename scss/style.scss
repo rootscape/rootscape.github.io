@@ -1180,10 +1180,7 @@ img {
         .audioplayer:not(.audioplayer-playing) .audioplayer-playpause {
             background: #fff;
         }
-        .audioplayer-time {
-            font-size: 14px;
-            color: #fff;
-        }
+        
     }
 }
 
@@ -1191,9 +1188,6 @@ img {
     position: relative;
     z-index: 1;
     width: 100%;
-    background-color: #262626;
-    padding: 15px 30px 20px;
-    border: 1px solid #363636;
     .song-name p {
         color: #b8b8b8;
         margin-bottom: 5px;
@@ -1211,12 +1205,9 @@ img {
     .audioplayer-playing .audioplayer-playpause,
     .audioplayer:not(.audioplayer-playing) .audioplayer-playpause:hover,
     .audioplayer:not(.audioplayer-playing) .audioplayer-playpause {
-        background: #fff;
+        background: #009d9773;
     }
-    .audioplayer-time {
-        font-size: 14px;
-        color: #fff;
-    }
+    
 }
 
 /* :: 11.0 Miscellaneous Area CSS */
@@ -2023,5 +2014,12 @@ img {
         box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.15);
     }
 }
+
+
+.slide1 h2{font-family:'parley';}
+.slide2 h2{font-family:'amatic';}
+.fontspecific {font-family:'amatic';}
+.fontspecific2 {font-family:'parley';}
+.fontspecific3 {font-family:'lemon';}
 
 /* ====== The End ====== */
