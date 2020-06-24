@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'parley';
+    src: url('../fonts/parley.ttf') format('truetype');
+  	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: 'amatic';
+    src: url('../fonts/Amatic.ttf') format('truetype');
+  	font-weight: normal;
+  	font-style: normal;
+}

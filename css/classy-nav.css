@@ -42,7 +42,7 @@ img {
   .classy-nav-container * {
     box-sizing: border-box; }
   .classy-nav-container a {
-    -webkit-transition-duration: 500ms;
+    -webkit-transition-duration: 3000ms;
     transition-duration: 500ms;
     text-decoration: none;
     outline: none;
@@ -51,8 +51,8 @@ img {
     color: #232323;
     display: inline-block; }
     .classy-nav-container a:hover, .classy-nav-container a:focus {
-      -webkit-transition-duration: 500ms;
-      transition-duration: 500ms;
+      -webkit-transition-duration: 3000ms;
+      transition-duration: 3000ms;
       text-decoration: none;
       outline: none;
       font-size: 14px;
