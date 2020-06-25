@@ -56,15 +56,19 @@ p {
 
 
 a,
-a:hover,
 a:focus {
     @include trans-duration(500ms);
     text-decoration: none;
     outline: 0 solid transparent;
-    color: $dark-color;
+    color: white;
     font-weight: 700;
     font-size: 16px;
-    font-family: $fonts;
+    font-family: "amatic";
+}
+
+a:hover{
+    text-decoration: none;
+    color:#ca5240;
 }
 
 ul,
@@ -1209,7 +1213,6 @@ img {
     }
     
 }
-
 /* :: 11.0 Miscellaneous Area CSS */
 
 .weeks-top-area {
@@ -1325,6 +1328,8 @@ img {
             border-radius: 0;
             background: transparent;
         }
+
+
         .audioplayer-playing .audioplayer-playpause,
         .audioplayer:not(.audioplayer-playing) .audioplayer-playpause:hover,
         .audioplayer:not(.audioplayer-playing) .audioplayer-playpause {
@@ -1333,7 +1338,7 @@ img {
         .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
             border-left: 12px solid #fff;
         }
-        .audioplayer-time,
+        
         .audioplayer-volume,
         .audioplayer-bar {
             display: none;
@@ -2021,5 +2026,14 @@ img {
 .fontspecific {font-family:'amatic';}
 .fontspecific2 {font-family:'parley';}
 .fontspecific3 {font-family:'lemon';}
+.justify-content-center {justify-content:center;}
 
+
+.audioplayer-time {
+    display: none;
+}
+   
+.audioplayer-bar {   
+    margin: 0 12px 0 25px;
+}     
 /* ====== The End ====== */
