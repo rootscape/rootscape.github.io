@@ -62,7 +62,7 @@ a:focus {
     outline: 0 solid transparent;
     color: white;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     font-family: "amatic";
 }
 
@@ -203,7 +203,7 @@ img {
     text-align: center;
     p {
         color: #5f5f5f;
-        font-size: 14px;
+        font-size: 20px;
         margin-bottom: 5px;
     }
     h2 {
@@ -951,7 +951,7 @@ img {
     position: relative;
     z-index: 1;
     @media #{$breakpoint-xs} {
-        margin-top: 50px;
+        margin-top: 0px;
     }
     p {
         color: #fff;
@@ -2036,4 +2036,11 @@ img {
 .audioplayer-bar {   
     margin: 0 12px 0 25px;
 }     
+
+
+.latest-albums-area {
+    @media(max-width: 1000px) {
+        background-size: auto;
+    }
+}
 /* ====== The End ====== */

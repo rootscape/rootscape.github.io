@@ -50,7 +50,7 @@ a:focus {
   outline: 0 solid transparent;
   color: white;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "amatic";
 }
 
@@ -189,7 +189,7 @@ img {
 }
 .section-heading p {
   color: #5f5f5f;
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 .section-heading h2 {
@@ -989,7 +989,7 @@ img {
 }
 @media only screen and (max-width:767px) {
   .featured-artist-content {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 }
 .featured-artist-content p {
@@ -2129,6 +2129,12 @@ img {
 
 .audioplayer-bar {
   margin: 0 12px 0 25px;
+}
+
+@media (max-width: 1000px) {
+  .latest-albums-area {
+    background-size: auto;
+  }
 }
 
 /* ====== The End ====== */
