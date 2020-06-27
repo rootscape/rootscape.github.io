@@ -2143,6 +2143,13 @@ img {
   }
 }
 
+.featured-artist-content__video {
+  margin: 50px auto 0;
+}
+.featured-artist-content__video__wrapper {
+  display: flex;
+}
+
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */

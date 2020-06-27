@@ -2049,4 +2049,14 @@ img {
         background-size: auto;
     }
 }
+
+.featured-artist-content {
+  &__video {
+    margin: 50px auto 0;
+
+    &__wrapper {
+         display: flex;
+    }
+  }
+}
 /* ====== The End ====== */
