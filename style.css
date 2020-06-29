@@ -1149,11 +1149,11 @@ img {
 .albums-slideshow .owl-next {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: #fff;
+  background-color: #1311113b;
   position: absolute;
   width: 50px;
   height: 50px;
-  border: 1px solid #000000;
+  border: 1px solid #00000012;
   top: 50%;
   left: -25px;
   margin-top: -50px;
@@ -1172,8 +1172,8 @@ img {
 .albums-slideshow .owl-prev:hover, .albums-slideshow .owl-prev:focus,
 .albums-slideshow .owl-next:hover,
 .albums-slideshow .owl-next:focus {
-  background-color: #000000;
-  color: #fff;
+  background-color: #42404038;
+  color: #ffffff61;
 }
 .albums-slideshow .owl-next {
   left: auto;

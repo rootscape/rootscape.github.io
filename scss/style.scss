@@ -1108,11 +1108,11 @@ img {
     .owl-prev,
     .owl-next {
         @include trans-duration(500ms);
-        background-color: #fff;
+        background-color: #1311113b;
         position: absolute;
         width: 50px;
         height: 50px;
-        border: 1px solid $dark-color;
+        border: 1px solid #00000012;
         top: 50%;
         left: -25px;
         margin-top: -50px;
@@ -1126,8 +1126,8 @@ img {
         }
         &:hover,
         &:focus {
-            background-color: $dark-color;
-            color: #fff;
+            background-color: #42404038;
+            color: #ffffff61;
         }
     }
     .owl-next {
