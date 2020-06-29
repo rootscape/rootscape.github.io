@@ -1046,15 +1046,20 @@ img {
   transition-duration: 500ms;
   margin-bottom: 30px;
 }
+.single-album:hover .album-info {
+  opacity: 1;
+}
 .single-album img {
   width: 100%;
 }
 .single-album .album-info {
-  position: relative;
+  position: absolute;
   z-index: 1;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  top: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s;
 }
 .single-album .album-info h5 {
   font-size: 18px;
@@ -1130,9 +1135,9 @@ img {
   border: 1px solid transparent;
 }
 .albums-slideshow .single-album:hover, .albums-slideshow .single-album:focus {
-  border: 1px solid #000000;
-  box-shadow: none;
-  background-color: #f5f9fa;
+  border: 1px solid #2b2b2b52;
+  box-shadow: 10px 5px 5px #3834343d;
+  background-color: #afafb173;
 }
 .albums-slideshow .owl-prev,
 .albums-slideshow .owl-next {
