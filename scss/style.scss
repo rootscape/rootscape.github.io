@@ -231,6 +231,12 @@ img {
             }
         }
     }
+    &__wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 /* :: 3.5.0 Preloader */
@@ -2055,7 +2061,9 @@ img {
 }
 
 .contact-area {
-     @media(max-width: 800px) {
+    height: 100vh;
+
+    @media(max-width: 800px) {
         background-size: auto;
     }
 }
@@ -2068,5 +2076,13 @@ img {
          display: flex;
     }
   }
+}
+
+.oneMusic-buy-now-area {
+    background-position-y: 0; 
+}
+
+.full-height {
+    height: 100%;
 }
 /* ====== The End ====== */

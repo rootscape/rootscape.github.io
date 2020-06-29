@@ -217,6 +217,12 @@ img {
     font-size: 24px;
   }
 }
+.section-heading__wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /* :: 3.5.0 Preloader */
 .preloader {
@@ -2142,6 +2148,9 @@ img {
   }
 }
 
+.contact-area {
+  height: 100vh;
+}
 @media (max-width: 800px) {
   .contact-area {
     background-size: auto;
@@ -2153,6 +2162,14 @@ img {
 }
 .featured-artist-content__video__wrapper {
   display: flex;
+}
+
+.oneMusic-buy-now-area {
+  background-position-y: 0;
+}
+
+.full-height {
+  height: 100%;
 }
 
 /* ====== The End ====== */
