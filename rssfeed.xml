@@ -1,0 +1,27 @@
+...
+    <?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+    <channel>
+        <item turbo="true">
+            <link>https://rootscape.github.io/</link>
+            <turbo:content>
+                <![CDATA[
+                         <header>
+                           <h1>rootscape</h1>
+                            <figure>
+                                <img src="https://rootscape.github.io/cover.jpg"/>
+                            </figure>
+                           <h2>локомотив тяжёлой рок-музыки для взрослых и детей</h2>
+                          <menu>
+                            <a href="https://rootscape.github.io/">цепляйся, пока цепляет</a>
+                           
+                          </menu>
+                         </header>
+                ]]>
+            </turbo:content>
+        </item>
+    </channel>
+</rss>
